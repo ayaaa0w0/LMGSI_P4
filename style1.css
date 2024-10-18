@@ -1,0 +1,66 @@
+
+h1 {
+  text-align: center;
+  color: rgb(255, 135, 173);
+  font-weight: bold;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  margin: auto; 
+}
+
+th {
+  width: 100px; 
+  background-color: #ed9cfd; /* Color de fondo */
+  color: rgb(0, 0, 0); /* Color del texto */
+  text-align: center; /* Texto centrado */
+  font-weight: bold; /* Texto en negrita */
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+caption {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #da23ff;
+}
+
+/* Colores de fondo para cada asignatura */
+td.lmgsi {
+  background-color: #ffcccb; 
+}
+
+td.bd {
+  background-color: #add8e6; 
+}
+
+td.ped {
+  background-color: #90ee90;
+}
+
+td.si {
+  background-color: #d3d3d3; 
+}
+
+td.tut {
+  background-color: #caff7a; 
+}
+
+td.an {
+  background-color: #f08080; 
+}
+
+td.diw {
+  background-color: #faf172; 
+}
+
+td.ipoi {
+  background-color: #f4a460; 
+}
